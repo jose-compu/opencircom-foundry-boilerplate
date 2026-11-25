@@ -38,6 +38,7 @@ async function main() {
   };
   fs.writeFileSync(path.join(buildDir, "proof.json"), JSON.stringify(proofJson, null, 2));
   console.log("Wrote build/proof.json");
+  process.exit(0);
 }
 
 main().catch((e) => {
