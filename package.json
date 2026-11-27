@@ -10,7 +10,7 @@
     "clean": "rm -rf build out cache"
   },
   "dependencies": {
-    "opencircom": "^0.10.3"
+    "opencircom": "^0.11.0"
   },
   "devDependencies": {
     "circomlibjs": "^0.1.7",
